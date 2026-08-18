@@ -1,0 +1,799 @@
+{
+  "lab-07-ansible-architecture-configuration-automated-inventory-challenge": {
+    "title": "Ansible Architecture, Configuration & Automated Inventory — Challenge",
+    "environment": "base",
+    "tools": [
+      "ansible"
+    ],
+    "capabilities": []
+  },
+  "lab-07-ansible-architecture-configuration-automated-inventory": {
+    "title": "Ansible Architecture, Configuration & Automated Inventory",
+    "environment": "base",
+    "tools": [
+      "ansible"
+    ],
+    "capabilities": []
+  },
+  "lab-08-automated-jenkins-server-toolchain-provisioning-challenge": {
+    "title": "Automated Jenkins Server & Toolchain Provisioning — Challenge",
+    "environment": "base",
+    "tools": [
+      "ansible"
+    ],
+    "capabilities": []
+  },
+  "lab-08-automated-jenkins-server-toolchain-provisioning": {
+    "title": "Automated Jenkins Server & Toolchain Provisioning",
+    "environment": "base",
+    "tools": [
+      "ansible"
+    ],
+    "capabilities": [
+      "init-system"
+    ]
+  },
+  "lab-09-production-grade-multi-stage-dockerfile-for-django-gunicorn-challenge": {
+    "title": "Production-Grade Multi-Stage Dockerfile for Django & Gunicorn — Challenge",
+    "environment": "base",
+    "tools": [
+      "docker"
+    ],
+    "capabilities": [
+      "docker-daemon"
+    ]
+  },
+  "lab-09-production-grade-multi-stage-dockerfile-for-django-gunicorn": {
+    "title": "Production-Grade Multi-Stage Dockerfile for Django & Gunicorn",
+    "environment": "base",
+    "tools": [
+      "docker"
+    ],
+    "capabilities": [
+      "docker-daemon"
+    ]
+  },
+  "lab-10-nginx-reverse-proxy-multi-container-docker-compose-stack-challenge": {
+    "title": "Nginx Reverse Proxy & Multi-Container Docker Compose Stack — Challenge",
+    "environment": "base",
+    "tools": [
+      "docker"
+    ],
+    "capabilities": [
+      "docker-daemon"
+    ]
+  },
+  "lab-10-nginx-reverse-proxy-multi-container-docker-compose-stack": {
+    "title": "Nginx Reverse Proxy & Multi-Container Docker Compose Stack",
+    "environment": "base",
+    "tools": [
+      "docker"
+    ],
+    "capabilities": [
+      "docker-daemon"
+    ]
+  },
+  "lab-11-core-kubernetes-workloads-configmaps-secrets-challenge": {
+    "title": "Core Kubernetes Workloads, ConfigMaps & Secrets — Challenge",
+    "environment": "k8s",
+    "tools": [
+      "docker",
+      "kubectl",
+      "kind"
+    ],
+    "capabilities": [
+      "kubernetes-cluster"
+    ]
+  },
+  "lab-11-core-kubernetes-workloads-configmaps-secrets": {
+    "title": "Core Kubernetes Workloads, ConfigMaps & Secrets",
+    "environment": "k8s",
+    "tools": [
+      "docker",
+      "kubectl",
+      "kind"
+    ],
+    "capabilities": [
+      "kubernetes-cluster"
+    ]
+  },
+  "lab-13-kubernetes-security-hardening-networkpolicies-hpa-challenge": {
+    "title": "Kubernetes Security Hardening (NetworkPolicies) & HPA — Challenge",
+    "environment": "k8s",
+    "tools": [
+      "docker",
+      "kubectl",
+      "kind"
+    ],
+    "capabilities": [
+      "kubernetes-cluster",
+      "networkpolicy-enforced",
+      "metrics-server"
+    ]
+  },
+  "lab-13-kubernetes-security-hardening-networkpolicies-hpa": {
+    "title": "Kubernetes Security Hardening (NetworkPolicies) & HPA",
+    "environment": "k8s",
+    "tools": [
+      "docker",
+      "kubectl",
+      "kind"
+    ],
+    "capabilities": [
+      "kubernetes-cluster",
+      "networkpolicy-enforced",
+      "metrics-server"
+    ]
+  },
+  "lab-14-creating-a-custom-helm-chart-for-django-microservices-challenge": {
+    "title": "Creating a Custom Helm Chart for Django Microservices — Challenge",
+    "environment": "k8s",
+    "tools": [
+      "docker",
+      "kubectl",
+      "kind",
+      "helm"
+    ],
+    "capabilities": [
+      "kubernetes-cluster"
+    ]
+  },
+  "lab-14-creating-a-custom-helm-chart-for-django-microservices": {
+    "title": "Creating a Custom Helm Chart for Django Microservices",
+    "environment": "k8s",
+    "tools": [
+      "docker",
+      "kubectl",
+      "kind",
+      "helm"
+    ],
+    "capabilities": [
+      "kubernetes-cluster"
+    ]
+  },
+  "lab-16-enterprise-multibranch-ci-cd-pipeline-with-sonarqube-trivy-challenge": {
+    "title": "Enterprise Multibranch CI/CD Pipeline with SonarQube & Trivy — Challenge",
+    "environment": "cicd",
+    "tools": [
+      "docker"
+    ],
+    "capabilities": [
+      "docker-daemon"
+    ]
+  },
+  "lab-16-enterprise-multibranch-ci-cd-pipeline-with-sonarqube-trivy": {
+    "title": "Enterprise Multibranch CI/CD Pipeline with SonarQube & Trivy",
+    "environment": "cicd",
+    "tools": [
+      "docker"
+    ],
+    "capabilities": [
+      "docker-daemon"
+    ]
+  },
+  "lab-17-deploying-kube-prometheus-stack-on-aws-eks-challenge": {
+    "title": "Deploying Kube-Prometheus-Stack on AWS EKS — Challenge",
+    "environment": "k8s",
+    "tools": [
+      "docker",
+      "kubectl",
+      "kind",
+      "helm"
+    ],
+    "capabilities": [
+      "kubernetes-cluster"
+    ]
+  },
+  "lab-17-deploying-kube-prometheus-stack-on-aws-eks": {
+    "title": "Deploying Kube-Prometheus-Stack on AWS EKS",
+    "environment": "k8s",
+    "tools": [
+      "docker",
+      "kubectl",
+      "kind",
+      "helm"
+    ],
+    "capabilities": [
+      "kubernetes-cluster"
+    ]
+  },
+  "lab-18-custom-prometheus-alert-rules-grafana-dashboards-challenge": {
+    "title": "Custom Prometheus Alert Rules & Grafana Dashboards — Challenge",
+    "environment": "k8s",
+    "tools": [
+      "docker",
+      "kubectl",
+      "kind",
+      "helm"
+    ],
+    "capabilities": [
+      "kubernetes-cluster"
+    ]
+  },
+  "lab-18-custom-prometheus-alert-rules-grafana-dashboards": {
+    "title": "Custom Prometheus Alert Rules & Grafana Dashboards",
+    "environment": "k8s",
+    "tools": [
+      "docker",
+      "kubectl",
+      "kind",
+      "helm"
+    ],
+    "capabilities": [
+      "kubernetes-cluster"
+    ]
+  },
+  "lab-20-linux-server-administration-challenge": {
+    "title": "Linux Server Administration — Challenge",
+    "environment": "base",
+    "tools": [
+      "bash"
+    ],
+    "capabilities": [
+      "init-system"
+    ]
+  },
+  "lab-20-linux-server-administration": {
+    "title": "Linux Server Administration",
+    "environment": "base",
+    "tools": [
+      "bash"
+    ],
+    "capabilities": [
+      "init-system"
+    ]
+  },
+  "lab-21-linux-networking-troubleshooting-challenge": {
+    "title": "Linux Networking & Troubleshooting — Challenge",
+    "environment": "base",
+    "tools": [
+      "bash",
+      "curl"
+    ],
+    "capabilities": []
+  },
+  "lab-21-linux-networking-troubleshooting": {
+    "title": "Linux Networking & Troubleshooting",
+    "environment": "base",
+    "tools": [
+      "bash",
+      "curl"
+    ],
+    "capabilities": []
+  },
+  "lab-22-bash-automation-backup-healthcheck-challenge": {
+    "title": "Bash Automation: A Script You Can Trust — Challenge",
+    "environment": "base",
+    "tools": [
+      "bash"
+    ],
+    "capabilities": [
+      "init-system"
+    ]
+  },
+  "lab-22-bash-automation-backup-healthcheck": {
+    "title": "Bash Automation: A Script You Can Trust",
+    "environment": "base",
+    "tools": [
+      "bash"
+    ],
+    "capabilities": [
+      "init-system"
+    ]
+  },
+  "lab-23-git-branching-collaboration-challenge": {
+    "title": "Git Branching & Collaboration — Challenge",
+    "environment": "base",
+    "tools": [
+      "git"
+    ],
+    "capabilities": []
+  },
+  "lab-23-git-branching-collaboration": {
+    "title": "Git Branching & Collaboration",
+    "environment": "base",
+    "tools": [
+      "git"
+    ],
+    "capabilities": []
+  },
+  "lab-ansible-roles-idempotency-challenge": {
+    "title": "Ansible Roles, Variables & Idempotency — Challenge",
+    "environment": "base",
+    "tools": [
+      "ansible"
+    ],
+    "capabilities": []
+  },
+  "lab-ansible-roles-idempotency": {
+    "title": "Ansible Roles, Variables & Idempotency",
+    "environment": "base",
+    "tools": [
+      "ansible"
+    ],
+    "capabilities": []
+  },
+  "lab-argocd-gitops-reconciliation-challenge": {
+    "title": "Challenge: Deploy Through Git, and Prove Drift Is Reverted",
+    "environment": "k8s",
+    "tools": [
+      "docker",
+      "kubectl",
+      "kind"
+    ],
+    "capabilities": [
+      "kubernetes-cluster"
+    ]
+  },
+  "lab-argocd-gitops-reconciliation": {
+    "title": "GitOps Delivery with Argo CD: Sync, Drift & Self-Heal",
+    "environment": "k8s",
+    "tools": [
+      "docker",
+      "kubectl",
+      "kind"
+    ],
+    "capabilities": [
+      "kubernetes-cluster"
+    ]
+  },
+  "lab-docker-networking-volumes-healthchecks-challenge": {
+    "title": "Docker Networking, Volumes & Health Checks — Challenge",
+    "environment": "base",
+    "tools": [
+      "docker"
+    ],
+    "capabilities": [
+      "docker-daemon"
+    ]
+  },
+  "lab-docker-networking-volumes-healthchecks": {
+    "title": "Docker Networking, Volumes & Health Checks",
+    "environment": "base",
+    "tools": [
+      "docker"
+    ],
+    "capabilities": [
+      "docker-daemon"
+    ]
+  },
+  "lab-git-professional-collaboration-challenge": {
+    "title": "Professional Collaboration on GitHub — Challenge",
+    "environment": "base",
+    "tools": [
+      "git"
+    ],
+    "capabilities": []
+  },
+  "lab-git-professional-collaboration": {
+    "title": "Professional Collaboration on GitHub",
+    "environment": "base",
+    "tools": [
+      "git"
+    ],
+    "capabilities": []
+  },
+  "lab-git-recovery-history-challenge": {
+    "title": "Git Recovery & History Surgery — Challenge",
+    "environment": "base",
+    "tools": [
+      "git"
+    ],
+    "capabilities": []
+  },
+  "lab-git-recovery-history": {
+    "title": "Git Recovery & History Surgery",
+    "environment": "base",
+    "tools": [
+      "git"
+    ],
+    "capabilities": []
+  },
+  "lab-helm-upgrade-rollback-challenge": {
+    "title": "Helm Upgrades, Rollbacks & Release Strategy — Challenge",
+    "environment": "k8s",
+    "tools": [
+      "docker",
+      "kubectl",
+      "kind",
+      "helm"
+    ],
+    "capabilities": [
+      "kubernetes-cluster"
+    ]
+  },
+  "lab-helm-upgrade-rollback": {
+    "title": "Helm Upgrades, Rollbacks & Release Strategy",
+    "environment": "k8s",
+    "tools": [
+      "docker",
+      "kubectl",
+      "kind",
+      "helm"
+    ],
+    "capabilities": [
+      "kubernetes-cluster"
+    ]
+  },
+  "lab-http-tls-troubleshooting-challenge": {
+    "title": "HTTP & TLS Troubleshooting — Challenge",
+    "environment": "base",
+    "tools": [
+      "bash",
+      "curl"
+    ],
+    "capabilities": []
+  },
+  "lab-http-tls-troubleshooting": {
+    "title": "HTTP & TLS Troubleshooting",
+    "environment": "base",
+    "tools": [
+      "docker"
+    ],
+    "capabilities": [
+      "docker-daemon"
+    ]
+  },
+  "lab-incident-cluster-dns": {
+    "title": "Incident: Service-to-Service Calls Fail",
+    "environment": "k8s",
+    "tools": [
+      "docker",
+      "kubectl",
+      "kind"
+    ],
+    "capabilities": [
+      "kubernetes-cluster"
+    ]
+  },
+  "lab-incident-crashloopbackoff": {
+    "title": "Incident: CrashLoopBackOff",
+    "environment": "k8s",
+    "tools": [
+      "docker",
+      "kubectl",
+      "kind"
+    ],
+    "capabilities": [
+      "kubernetes-cluster"
+    ]
+  },
+  "lab-incident-ingress-502": {
+    "title": "Incident: 502 Bad Gateway",
+    "environment": "k8s",
+    "tools": [
+      "docker",
+      "kubectl",
+      "kind"
+    ],
+    "capabilities": [
+      "kubernetes-cluster"
+    ]
+  },
+  "lab-jenkins-docker-pipeline-challenge": {
+    "title": "Jenkins Pipeline: Build, Scan and Push an Image — Challenge",
+    "environment": "cicd",
+    "tools": [
+      "docker"
+    ],
+    "capabilities": [
+      "docker-daemon"
+    ]
+  },
+  "lab-jenkins-docker-pipeline": {
+    "title": "Jenkins Pipeline: Build, Scan and Push an Image",
+    "environment": "cicd",
+    "tools": [
+      "docker"
+    ],
+    "capabilities": [
+      "docker-daemon"
+    ]
+  },
+  "lab-jenkins-fundamentals-challenge": {
+    "title": "Jenkins Fundamentals & Role-Based Access — Challenge",
+    "environment": "cicd",
+    "tools": [
+      "docker"
+    ],
+    "capabilities": [
+      "docker-daemon"
+    ]
+  },
+  "lab-jenkins-fundamentals": {
+    "title": "Jenkins Fundamentals & Role-Based Access",
+    "environment": "cicd",
+    "tools": [
+      "docker"
+    ],
+    "capabilities": [
+      "docker-daemon"
+    ]
+  },
+  "lab-k8s-gateway-api-challenge": {
+    "title": "From Ingress to Gateway API — Challenge",
+    "environment": "k8s",
+    "tools": [
+      "docker",
+      "kubectl",
+      "kind"
+    ],
+    "capabilities": [
+      "kubernetes-cluster"
+    ]
+  },
+  "lab-k8s-gateway-api": {
+    "title": "From Ingress to Gateway API",
+    "environment": "k8s",
+    "tools": [
+      "docker",
+      "kubectl",
+      "kind"
+    ],
+    "capabilities": [
+      "kubernetes-cluster"
+    ]
+  },
+  "lab-k8s-node-drain-upgrade-challenge": {
+    "title": "Node Drain, Upgrade & Recovery — Challenge",
+    "environment": "k8s",
+    "tools": [
+      "docker",
+      "kubectl",
+      "kind"
+    ],
+    "capabilities": [
+      "kubernetes-cluster"
+    ]
+  },
+  "lab-k8s-node-drain-upgrade": {
+    "title": "Node Drain, Upgrade & Recovery",
+    "environment": "k8s",
+    "tools": [
+      "docker",
+      "kubectl",
+      "kind"
+    ],
+    "capabilities": [
+      "kubernetes-cluster"
+    ]
+  },
+  "lab-k8s-rbac-service-accounts-challenge": {
+    "title": "Kubernetes RBAC & Service Accounts — Challenge",
+    "environment": "k8s",
+    "tools": [
+      "docker",
+      "kubectl",
+      "kind"
+    ],
+    "capabilities": [
+      "kubernetes-cluster"
+    ]
+  },
+  "lab-k8s-rbac-service-accounts": {
+    "title": "Kubernetes RBAC & Service Accounts",
+    "environment": "k8s",
+    "tools": [
+      "docker",
+      "kubectl",
+      "kind"
+    ],
+    "capabilities": [
+      "kubernetes-cluster"
+    ]
+  },
+  "lab-k8s-services-challenge": {
+    "title": "Kubernetes Services & Service Discovery — Challenge",
+    "environment": "k8s",
+    "tools": [
+      "docker",
+      "kubectl",
+      "kind"
+    ],
+    "capabilities": [
+      "kubernetes-cluster"
+    ]
+  },
+  "lab-k8s-services": {
+    "title": "Kubernetes Services & Service Discovery",
+    "environment": "k8s",
+    "tools": [
+      "docker",
+      "kubectl",
+      "kind"
+    ],
+    "capabilities": [
+      "kubernetes-cluster"
+    ]
+  },
+  "lab-k8s-storage-challenge": {
+    "title": "Kubernetes Storage: PVC, PV and StorageClass — Challenge",
+    "environment": "k8s",
+    "tools": [
+      "docker",
+      "kubectl",
+      "kind"
+    ],
+    "capabilities": [
+      "kubernetes-cluster"
+    ]
+  },
+  "lab-k8s-storage": {
+    "title": "Kubernetes Storage: PVC, PV and StorageClass",
+    "environment": "k8s",
+    "tools": [
+      "docker",
+      "kubectl",
+      "kind"
+    ],
+    "capabilities": [
+      "kubernetes-cluster"
+    ]
+  },
+  "lab-k8s-workloads-challenge": {
+    "title": "Kubernetes Workloads: Pod, ReplicaSet, Deployment — Challenge",
+    "environment": "k8s",
+    "tools": [
+      "docker",
+      "kubectl",
+      "kind"
+    ],
+    "capabilities": [
+      "kubernetes-cluster"
+    ]
+  },
+  "lab-k8s-workloads": {
+    "title": "Kubernetes Workloads: Pod, ReplicaSet, Deployment",
+    "environment": "k8s",
+    "tools": [
+      "docker",
+      "kubectl",
+      "kind"
+    ],
+    "capabilities": [
+      "kubernetes-cluster"
+    ]
+  },
+  "lab-linux-processes-services-logs-challenge": {
+    "title": "Linux Processes, Services & Logs — Challenge",
+    "environment": "base",
+    "tools": [
+      "bash"
+    ],
+    "capabilities": [
+      "init-system"
+    ]
+  },
+  "lab-linux-processes-services-logs": {
+    "title": "Linux Processes, Services & Logs",
+    "environment": "base",
+    "tools": [
+      "bash"
+    ],
+    "capabilities": [
+      "init-system"
+    ]
+  },
+  "lab-linux-ssh-hardening-challenge": {
+    "title": "Linux Security & SSH Hardening — Challenge",
+    "environment": "base",
+    "tools": [
+      "bash"
+    ],
+    "capabilities": []
+  },
+  "lab-linux-ssh-hardening": {
+    "title": "Linux Security & SSH Hardening",
+    "environment": "base",
+    "tools": [
+      "bash"
+    ],
+    "capabilities": [
+      "init-system"
+    ]
+  },
+  "lab-loki-centralized-logging-challenge": {
+    "title": "Centralised Logging with Loki and Grafana — Challenge",
+    "environment": "k8s",
+    "tools": [
+      "docker",
+      "kubectl",
+      "kind"
+    ],
+    "capabilities": [
+      "kubernetes-cluster"
+    ]
+  },
+  "lab-loki-centralized-logging": {
+    "title": "Centralised Logging with Loki and Grafana",
+    "environment": "k8s",
+    "tools": [
+      "docker",
+      "kubectl",
+      "kind"
+    ],
+    "capabilities": [
+      "kubernetes-cluster"
+    ]
+  },
+  "lab-reverse-proxy-load-balancing-challenge": {
+    "title": "Reverse Proxy & Load Balancing with Nginx — Challenge",
+    "environment": "base",
+    "tools": [
+      "bash",
+      "curl"
+    ],
+    "capabilities": []
+  },
+  "lab-reverse-proxy-load-balancing": {
+    "title": "Reverse Proxy & Load Balancing with Nginx",
+    "environment": "base",
+    "tools": [
+      "bash",
+      "curl"
+    ],
+    "capabilities": []
+  },
+  "lab-sre-backup-disaster-recovery-challenge": {
+    "title": "Backup & Disaster Recovery Drill — Challenge",
+    "environment": "base",
+    "tools": [
+      "docker"
+    ],
+    "capabilities": [
+      "docker-daemon"
+    ]
+  },
+  "lab-sre-backup-disaster-recovery": {
+    "title": "Backup & Disaster Recovery Drill",
+    "environment": "base",
+    "tools": [
+      "docker"
+    ],
+    "capabilities": [
+      "docker-daemon"
+    ]
+  },
+  "lab-sre-chaos-failure-injection-challenge": {
+    "title": "Chaos: Failure Injection & Recovery — Challenge",
+    "environment": "base",
+    "tools": [
+      "docker"
+    ],
+    "capabilities": [
+      "docker-daemon"
+    ]
+  },
+  "lab-sre-chaos-failure-injection": {
+    "title": "Chaos: Failure Injection & Recovery",
+    "environment": "base",
+    "tools": [
+      "docker"
+    ],
+    "capabilities": [
+      "docker-daemon"
+    ]
+  },
+  "lab-terraform-testing-ci-challenge": {
+    "title": "Terraform Validation, Linting & CI — Challenge",
+    "environment": "base",
+    "tools": [
+      "terraform",
+      "docker"
+    ],
+    "capabilities": [
+      "docker-daemon"
+    ]
+  },
+  "lab-terraform-testing-ci": {
+    "title": "Terraform Validation, Linting & CI",
+    "environment": "base",
+    "tools": [
+      "terraform",
+      "docker"
+    ],
+    "capabilities": [
+      "docker-daemon"
+    ]
+  }
+}
